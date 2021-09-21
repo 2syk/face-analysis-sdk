@@ -87,6 +87,7 @@ ADD_SUBDIRECTORY(src/display-avatar)
 ADD_SUBDIRECTORY(src/display-tracking)
 ADD_SUBDIRECTORY(src/create-avatar-model)
 ADD_SUBDIRECTORY(src/display-3d-points)
+ADD_SUBDIRECTORY(src/python)
 
 # install(EXPORT CSIRO DESTINATION ${CMAKE_INSTALL_PREFIX})
 install(FILES src/CSIROConfig.cmake DESTINATION "${CMAKE_INSTALL_PREFIX}")

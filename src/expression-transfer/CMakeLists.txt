@@ -1,4 +1,5 @@
 # -*-cmake-*-
+add_definitions(-DOPENCV_TRAITS_ENABLE_DEPRECATED)
 add_executable(expression-transfer
   main.cpp)
 set_target_properties(expression-transfer PROPERTIES DEBUG_POSTFIX "d")
